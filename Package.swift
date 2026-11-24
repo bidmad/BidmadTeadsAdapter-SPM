@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadTeadsAdapter", targets: ["BidmadTeadsAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.4")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
     .package(url: "https://github.com/teads/TeadsSDK-iOS.git", exact: "6.1.0"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadTeadsAdapter",
-      url: "https://github.com/bidmad/BidmadTeadsAdapter-SPM/releases/download/7.2.0-dev.4+6.1.0/BidmadTeadsAdapter.xcframework.zip",
-      checksum: "621e22a72eb0a75e042555c9b0f3cbb53de7694c527ae7df879069cacc2d9f88"
+      url: "https://github.com/bidmad/BidmadTeadsAdapter-SPM/releases/download/7.2.0-dev.5+6.1.0/BidmadTeadsAdapter.xcframework.zip",
+      checksum: "dda24069eecbc725b980f741e8ceac34b2765402cad90b1e9947bd9fbfac302e"
     ),
   ]
 )
